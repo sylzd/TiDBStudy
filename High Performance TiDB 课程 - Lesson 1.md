@@ -23,7 +23,7 @@
 2. 找到TiDB中事务begin相关的源码及log相关代码
 
    1. 搜索“begin”（事务开始一般都是这样的关键词，如果找不到，就从两阶段提交入手倒退到事务开始的位置）
-   2. 在与kv层找到` newTiKVTxn`事务开始的方法
+   2. 在与kv层交互的地方找到`tikvStore.Begin()`事务开始的方法
 
 3. 插入"hello transaction"日志
 
