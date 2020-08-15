@@ -10,7 +10,7 @@
 
 ## 目标
 
-![image-20200815143046996](/Users/lzd/Dropbox/mi_work/TiDBStudy/image-20200815143046996.png)
+![image-20200815143046996](./image-20200815143046996.png)
 
 
 
@@ -48,7 +48,7 @@ grafana-3000  monitor-9100  pd-2379  prometheus-9090  tidb-4000  tiflash-9000  t
 
 部署完成后的截图如下：
 
-![image-20200815155413468](/Users/lzd/Dropbox/mi_work/TiDBStudy/image-20200815155413468.png)
+![image-20200815155413468](./image-20200815155413468.png)
 
 
 
