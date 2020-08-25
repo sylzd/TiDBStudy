@@ -425,7 +425,7 @@ tiup cluster edit-config tidb-benchmark-test
   ./bin/go-tpc tpch prepare -H 127.0.0.1 -P 4000 -D tpch --sf 10 --analyze
   ```
 
-- 运行测试
+- 运行测试 21:18~21:20
 
 ```bash
 ./bin/go-tpc tpch run -H 127.0.0.1 -P 4000 -D tpch --sf 10
@@ -435,19 +435,19 @@ tiup cluster edit-config tidb-benchmark-test
 
   - TiDB Query Summary 中的 qps 与 duration
 
-    
+    ![image-20200825212034053](./image-20200825212034053.png)
 
   - TiKV Details 面板中 Cluster 中各 server 的 CPU 以及 QPS 指标
 
-    
+    ![image-20200825212512466](./image-20200825212512466.png)
 
   - TiKV Details 面板中 grpc 的 qps 以及 duration
 
-    
+    ![image-20200825212714887](./image-20200825212714887.png)
 
 
 
-
+ 
 
 ## 总结与问题
 
@@ -509,3 +509,10 @@ tiup cluster edit-config tidb-benchmark-test
 
    我觉得需要关注，这些没有流量时的消耗资源的动作，比如rebalance? 希望能解答下?
 
+
+
+6. 数据在vdb磁盘中，为什么会把挂载根目录/的磁盘的IO打满？
+
+   有什么临时文件的写入嘛？
+
+   
