@@ -16,7 +16,7 @@
 
 ## 目标
 
-![image-20200820163050778](/Users/lzd/Dropbox/mi_work/TiDBStudy/image-20200820163050778.png)
+![image-20200820163050778](./image-20200820163050778.png)
 
 ## 学习
 
