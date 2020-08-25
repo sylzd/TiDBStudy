@@ -507,7 +507,7 @@ tiup cluster edit-config tidb-benchmark-test
 
 5. 在测试停止时，经常也会有load打高的情况
 
-   我觉得需要关注，这些没有流量时的消耗资源的动作，比如rebalance? 希望能解答下?
+   我觉得需要关注，这些没有流量时的消耗资源的动作，比如rebalance、异步刷盘? 希望能解答下?
 
 
 
