@@ -325,12 +325,12 @@ tiup cluster edit-config tidb-benchmark-test
 
 - 下载安装
 
-  ```bash
+```bash
   git clone https://github.com/pingcap/go-ycsb.git --depth=1
   cd go-ycsb
-make
-  ```
-  
+  make
+```
+
 - 准备数据
 
   ```
@@ -427,7 +427,7 @@ make
 
 - 运行测试
 
-  ```bash
+```bash
 ./bin/go-tpc tpch run -H 127.0.0.1 -P 4000 -D tpch --sf 10
 ```
 
@@ -444,6 +444,8 @@ make
   - TiKV Details 面板中 grpc 的 qps 以及 duration
 
     
+
+
 
 
 
