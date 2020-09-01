@@ -1,0 +1,9 @@
+Release Version: v4.0.2
+Edition: Community
+Git Commit Hash: 328b6d0a955c4668cf3188d02a6df42e16eaab4e
+Git Branch: heads/refs/tags/v4.0.2
+UTC Build Time: 2020-07-01 08:19:48
+GoVersion: go1.13
+Race Enabled: false
+TiKV Min Version: v3.0.0-60965b006877ca7234adaced7890d7b029ed1306
+Check Table Before Drop: false
